@@ -1,0 +1,6 @@
+public/
+.lsp/
+.clj-kondo
+.nrepl-port
+.cpcache/
+.work/

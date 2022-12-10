@@ -1,0 +1,9 @@
+{:aliases
+ {:quickblog
+  {:deps {io.github.borkdude/quickblog
+            {:git/sha "31417b06c35f21e39d0f23c98f667706f403b767"}
+          org.babashka/cli
+            {:mvn/version "0.3.35"}}
+   :main-opts ["-m" "babashka.cli.exec" "quickblog.cli" "run"]
+   :exec-args {:blog-title "Pablo"
+               :blog-description "A blog about blogging quickly"}}}}
